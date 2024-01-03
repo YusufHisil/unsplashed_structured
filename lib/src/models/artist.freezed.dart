@@ -95,7 +95,7 @@ class __$$Artist$ImplCopyWithImpl<$Res>
 /// @nodoc
 @JsonSerializable()
 class _$Artist$Impl implements Artist$ {
-  const _$Artist$Impl({@JsonKey(name: 'name') this.artist = ''});
+  const _$Artist$Impl({@JsonKey(name: 'name') required this.artist = ''});
 
   factory _$Artist$Impl.fromJson(Map<String, dynamic> json) =>
       _$$Artist$ImplFromJson(json);
